@@ -69,6 +69,7 @@ First off, install:
 - Understand what a Stack is. Try implementing one using a list and/or in other ways.
 - Understand what a Queue is. Try implementing one using a list and/or in other ways.
 - Understand what a Linked List is. Try implementing one.
+- Understand what a HashTable is and how it is the backing data structure of Dictionaries.
 - Understand what a Binary Tree is, and that it is a specific simple case of a more general graph structure. Try implementing one.
 - Understand what an algorithm complexity is. Get an idea of Time and space complexity. Get an idea of the Big-O notation.
 - Try solving some exercises that require you to write Data Structures and get an idea of the complexity of your solution.
