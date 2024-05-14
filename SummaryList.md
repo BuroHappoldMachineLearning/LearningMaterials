@@ -3,7 +3,7 @@
 ## Python and programming
 
 First off, install:
-- Visual Studio Code. This is a text editor that supports many extensions to write code in many languages. Make sure to install Python extensions: in VSCode, learn the CTRL+Shift+P shortcut that gives you access to all commands. Then type "Install extensions" and search for Python. Install that.
+- Visual Studio Code. This is a text editor that supports many extensions to write code in many languages. Make sure to install Python extensions: in VSCode, learn the CTRL+Shift+P shortcut that gives you access to all commands. Follow [this guide](https://code.visualstudio.com/docs/languages/python) and make sure you learn the foundations, up until the Jupyter Notebook section (you can skip "Testing" and the below sections initially).
 - Python. For now, feel free to install the latest version from https://www.python.org/downloads/. We will use a few different versions during our work.
 
 ### Basics of Python
