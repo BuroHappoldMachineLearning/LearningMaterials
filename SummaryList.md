@@ -2,10 +2,13 @@
 
 ## Python and programming
 
-First off, install:
-- Visual Studio Code. This is a text editor that supports many extensions to write code in many languages. Make sure to install Python extensions: in VSCode, learn the CTRL+Shift+P shortcut that gives you access to all commands. It's available in the Software Centre.
+### Visual Studio code and Python initial setup
+
+Visual Studio Code is a text editor that supports many extensions to write code in many languages, and it's our editor of choice for Python. 
+
 - Follow [this guide for using Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python) and make sure you learn the foundations, up until the Jupyter Notebook section (you can skip "Testing" and the below sections initially).
-- Python. The guide above should point you in the right direction for installing it. In general, it should be ok to install the latest version from https://www.python.org/downloads/. We will use a few different versions during our work.
+
+- Python. This is our language of choice for scripting and programming around ML tasks. The guide above should point you in the right direction for installing it. In general, it should be ok to install the latest version from https://www.python.org/downloads/. We will use a few different versions during our work.
 
 ### Basics of Python
 
