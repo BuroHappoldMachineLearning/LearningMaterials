@@ -6,7 +6,7 @@
 
 Visual Studio Code is a text editor that supports many extensions to write code in many languages, and it's our editor of choice for Python. 
 
-- Follow [this guide for using Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python) and make sure you learn the foundations, up until the Jupyter Notebook section (you can skip "Testing" and the below sections initially).
+- Follow [this guide for using Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python) and make sure you learn the foundations, up until the Jupyter Notebook section (you can skip "Testing" and the below sections initially). It covers many of the points listed below in the "Basics of Python" section.
 
 - Python. This is our language of choice for scripting and programming around ML tasks. The guide above should point you in the right direction for installing it. In general, it should be ok to install the latest version from https://www.python.org/downloads/. We will use a few different versions during our work.
 
