@@ -1,6 +1,6 @@
 # Python and Machine Learning topic list with references
 
-I left links to useful resources wherever I could, but in general please Google any resource you can find on the below-mentioned topics.  
+I left links to useful resources wherever I could, but in general you may need to Google additional resources on the below-mentioned topics.  
 Anything works really, as long as you get a general understanding of the subject and you are comfortable in using Python and its ecosystem to achieve certain things. 
 
 You don't need to become an expert, and you don't need to do everything in this list. But please do make some effort in reading about these subjects, in particular the ones that interest you the most. The more you familiarise yourself with, the more you'll be able to contribute to our work.
