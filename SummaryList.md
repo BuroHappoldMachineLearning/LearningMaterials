@@ -93,15 +93,25 @@ In general, you should make sure you cover and understand the following points:
 - ... TODO
 
 ## Basics of Machine Learning
-- What is a statistical model
-- Classical ML vs Neural Networks VS Reinforcement Learning
-- ... TODO
+- What is a statistical model?
+- Understand the differences between classical ML (non-deep learning) vs Neural Networks VS Reinforcement Learning
 
 ### Classical ML
-- Try linear regression
-- Try polynomial regression
-- Try clustering techniques
-- ... TODO
+The following can be done using any Python package that supports them, or 
+- Try [linear regression](https://www.w3schools.com/python/python_ml_linear_regression.asp)
+- Try [polynomial regression](https://www.w3schools.com/python/python_ml_polynomial_regression.asp)
+- Try clustering techniques, e.g.: [K-means](https://www.w3schools.com/python/python_ml_k-means.asp), [others](https://scikit-learn.org/stable/modules/clustering.html)
+- Understand and try [Decision Trees](https://www.w3schools.com/python/python_ml_decision_tree.asp)
+- Understand and try [Random Forests](https://www.geeksforgeeks.org/random-forest-regression-in-python/) and how they improve on Decision Trees
+- Understand what [Bootstrapping](https://www.statology.org/bootstrapping-in-python/) is and try it
 
-### Neural networks
-- ... TODO
+### Deep Learning/Neural networks
+- Understand [what is Deep Learning (DL)](https://www.ibm.com/topics/deep-learning)
+- Understand [when Deep Learning is useful](https://blog.dataiku.com/when-and-when-not-to-use-deep-learning), rather than non-DL approaches.
+- Understand how DL can be done via Python frameworks (e.g. learn about common frameworks). Have a look at [Pytorch](https://pytorch.org/docs/stable/index.html), [Tensorflow](https://www.tensorflow.org/learn), [Scikit-learn](https://scikit-learn.org/stable/modules/neural_networks_supervised.html), [Keras](https://keras.io/getting_started/intro_to_keras_for_engineers/). You don't need to try them all, just understand there are many frameworks and that they differ in many ways; we focus on using Pytorch.
+- Try this [60-minute Pytorch tutorial](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#goal-of-this-tutorial).
+
+### Computer vision
+We use mostly computer vision in our work.
+- Understand Computer Vision
+- 
