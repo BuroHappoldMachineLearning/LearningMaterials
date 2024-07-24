@@ -23,27 +23,27 @@ This [beginners tutorial](https://code.visualstudio.com/docs/python/python-tutor
 In general, you should make sure you cover and understand the following points:
 
 - Basic syntax in Python. Define variables.
-- Control flow structures: if-else
-- Define functions
-- Basic built-in data structures: 
+- [IMPORTANT] ❗ Control flow structures: if-else
+- [IMPORTANT] ❗ Define functions
+- [IMPORTANT] ❗ Basic built-in data structures: 
 	- Lists
 	- Tuples
 	- Dictionary
 
-- What is [PIP](https://www.w3schools.com/python/python_pip.asp)? Try using it to install some packages. Where are those packages installed (in what folder of your machine)?
-- Understand that when you install Python you effectively install a Python runtime executable (an .exe, in Windows), which is the program that runs your Python scripts/programs. This is called a Python "interpreter". Understand that there are many different versions of Python interpreters (we mostly use 3.10.xx and/or 3.8.xx).
+- [IMPORTANT] ❗ What is [PIP](https://www.w3schools.com/python/python_pip.asp)? Try using it to install some packages. Where are those packages installed (in what folder of your machine)?
+- [IMPORTANT] ❗ Understand that when you install Python you effectively install a Python runtime executable (an .exe, in Windows), which is the program that runs your Python scripts/programs. This is called a Python "interpreter". Understand that there are many different versions of Python interpreters (we mostly use 3.10.xx and/or 3.8.xx).
 - [IMPORTANT] ❗ What is a [virtual environment](https://realpython.com/python-virtual-environments-a-primer/) in Python? Understand why **it's important to _always_ develop code in an environment**. Where do packages installed with PIP end on your machine, when you call PIP from an environment? You need to make sure an environment is always enabled when you code, and you understand that by installing packages in an environment you are adding _dependencies_. In our work, we use _shared_ environments on the same machine (workstations) and you must make sure you only install packages in shared environments only if really necessary, and possibly after consulting with other developers.
-- Learn that Python has many ways of managing environments, mainly PIP environments (VENV) and Conda Environments. We mostly use Conda environments, but when we can't avoid it we also install PIP packages in Conda environments.
+- [IMPORTANT] ❗ Learn that Python has many ways of managing environments, mainly PIP environments (VENV) and Conda Environments. We mostly use Conda environments, but when we can't avoid it we also install PIP packages in Conda environments.
 - If you need to try out things by yourself, you must use an environment of your own. Learn how to clone environments if you need to create a new environment for your use based on another existing environment.
 - [IMPORTANT] ❗ Learn to create an environment and activate/deactivate it. See [this guide](https://code.visualstudio.com/docs/python/python-tutorial#_create-a-python-source-code-file) that explains how environments are integrated in VSCode.
 
 
 ### Basics of Git
-- What is a Git repository ("repo").
+- [IMPORTANT] ❗ What is a Git repository ("repo").
 - Create a Git repository for your learning and exercises. You can create a free GitHub account and create a repo there.
 - Clone the repository on your machine.
-- What is a branch?
-- What does it mean to commit.
+- [IMPORTANT] ❗ What is a branch?
+- [IMPORTANT] ❗ What does it mean to commit.
 - What does it meant to Pull and Push from/to a repo.
 - What is the .gitignore file?
 - Create an environment for your repository and exercises.
