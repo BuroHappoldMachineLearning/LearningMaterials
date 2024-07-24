@@ -50,12 +50,12 @@ In general, you should make sure you cover and understand the following points:
 
 
 ### Basics of Object-oriented Python
-- What is a class?
+- [IMPORTANT] ❗ What is a [class](https://www.w3schools.com/python/python_classes.asp) in Python?
 - What is an object (= instance of a class)?
-- What are properties (fields) of a class 
-- What are getters and setters
-- Private VS Public methods and fields. What is the difference, how can you do that in Python?
-- What is a constructor
+- What are properties (this is the more exact name, but in Python, they're called "attributes") of a class?
+- [IMPORTANT] ❗ What are [getters and setters](https://realpython.com/python-getter-setter/) in Python? Understand the `self` keyword.
+- [Private methods](https://www.geeksforgeeks.org/private-methods-in-python/) VS Public methods and fields. What is the difference, how can you do that in Python?
+- What is a constructor (sometimes shortened as "ctor")?
 - Define a class, do exercises
 
 
@@ -64,8 +64,7 @@ In general, you should make sure you cover and understand the following points:
 - [IMPORTANT] ❗ Understand what a Python module is. Understand "imports". Try creating a module.
 - [IMPORTANT] ❗ What is a package in Python. Difference with a module.
 - What are decorators, how can decorators be useful. Try writing a decorator.
-- Mutable VS immutable types in Python: learn the difference (e.g. can you modify a list? Can you modify a tuple?)
-- Understand pass-by-value and pass-by-reference (e.g. https://www.geeksforgeeks.org/pass-by-reference-vs-value-in-python/)
+- Understand [pass-by-value and pass-by-reference](https://www.geeksforgeeks.org/pass-by-reference-vs-value-in-python/) in Python.
 - "Python is a dynamic programming language", understand what that means. Understand the difference with static typed languages (e.g. C#). You don't need to know another language, but to understand the difference it helps to try another out (e.g. just declaring variables/classes in a static language like C#).
 - The following two are very important; **we rely on them a lot, because they are of fundamental importance when creating larger programs, and we expect you to use them in our work**:
     - [IMPORTANT] ❗ Understand ["Type Hints"](https://realpython.com/lessons/type-hinting/) and try them in some scripts. Understand how they help in reducing the issues with Dynamic programming languages, see below.
@@ -82,7 +81,8 @@ In general, you should make sure you cover and understand the following points:
 - What is an [object reference](https://stackoverflow.com/questions/35488769/what-is-an-object-reference-in-python)?
 - What is [shallow cloning and what is deep cloning](https://realpython.com/copying-python-objects/). Differences. How to do either in Python.
 - [IMPORTANT] ❗ Understand [object identity in Python](https://realpython.com/courses/python-is-identity-vs-equality/); wow does the equality operator `==` VS `is` behave when comparing objects (e.g. for class instances, how does it work?)
-- [IMPORTANT] ❗ Learn how to use the [`type()` operator](https://switowski.com/blog/type-vs-isinstance/), and the [`isinstance()` operator](https://www.w3schools.com/python/ref_func_isinstance.asp) and how it differs from `is`; we use all of them a lot. 
+- [IMPORTANT] ❗ Learn how to use the [`type()` operator](https://switowski.com/blog/type-vs-isinstance/), and the [`isinstance()` operator](https://www.w3schools.com/python/ref_func_isinstance.asp) and how it differs from `is`; we use all of them a lot.
+- [IMPORTANT] ❗ [Mutable VS immutable types](https://realpython.com/python-mutable-vs-immutable-types/) in Python: learn the difference (e.g. can you modify a list? Can you modify a tuple?)
 
 
 ### Algorithms and data structures
