@@ -29,11 +29,12 @@ In general, you should make sure you cover and understand the following points:
 	- Lists
 	- Tuples
 	- Dictionary
-- Understand what a Python module is. Understand "imports". Try creating a module.
-- What is a package in Python. Difference with a module.
-- What is PIP? Try using it to install some packages. Where are those packages installed (in what folder of your machine)?
+
+- What is [PIP](https://www.w3schools.com/python/python_pip.asp)? Try using it to install some packages. Where are those packages installed (in what folder of your machine)?
 - Understand that when you install Python you effectively install a Python runtime executable (an .exe, in Windows), which is the program that runs your Python scripts/programs. This is called a Python "interpreter". Understand that there are many different versions of Python interpreters (we mostly use 3.10.xx and/or 3.8.xx).
-- [IMPORTANT] ❗ What is an environment in Python? Understand why it's important to **always** work in an environment. Where do packages installed with PIP end on your machine, when you call PIP from an environment?
+- [IMPORTANT] ❗ What is a [virtual environment](https://realpython.com/python-virtual-environments-a-primer/) in Python? Understand why **it's important to _always_ develop code in an environment**. Where do packages installed with PIP end on your machine, when you call PIP from an environment? You need to make sure an environment is always enabled when you code, and you understand that by installing packages in an environment you are adding _dependencies_. In our work, we use _shared_ environments on the same machine (workstations) and you must make sure you only install packages in shared environments only if really necessary, and possibly after consulting with other developers.
+- Learn that Python has many ways of managing environments, mainly PIP environments (VENV) and Conda Environments. We mostly use Conda environments, but when we can't avoid it we also install PIP packages in Conda environments.
+- If you need to try out things by yourself, you must use an environment of your own. Learn how to clone environments if you need to create a new environment for your use based on another existing environment.
 - [IMPORTANT] ❗ Learn to create an environment and activate/deactivate it. See [this guide](https://code.visualstudio.com/docs/python/python-tutorial#_create-a-python-source-code-file) that explains how environments are integrated in VSCode.
 
 
@@ -60,6 +61,8 @@ In general, you should make sure you cover and understand the following points:
 
 ### Intermediate Python
 
+- [IMPORTANT] ❗ Understand what a Python module is. Understand "imports". Try creating a module.
+- [IMPORTANT] ❗ What is a package in Python. Difference with a module.
 - What are decorators, how can decorators be useful. Try writing a decorator.
 - Mutable VS immutable types in Python: learn the difference (e.g. can you modify a list? Can you modify a tuple?)
 - Understand pass-by-value and pass-by-reference (e.g. https://www.geeksforgeeks.org/pass-by-reference-vs-value-in-python/)
@@ -75,10 +78,9 @@ In general, you should make sure you cover and understand the following points:
 
 ### Intermediate Object-oriented Python
 - What is inheritance. How can it be useful. Do exercises.
-- What are DataClasses
-- Write some dataclasses, do exercises
-- What is an object reference
-- What is shallow cloning and what is deep cloning. Differences. How to do either in Python.
+- What are [DataClasses](https://www.dataquest.io/blog/how-to-use-python-data-classes/)? Try them out. We use them a lot in our code.
+- What is an [object reference](https://stackoverflow.com/questions/35488769/what-is-an-object-reference-in-python)?
+- What is [shallow cloning and what is deep cloning](https://realpython.com/copying-python-objects/). Differences. How to do either in Python.
 - How does the equality operator == behave when comparing objects (e.g. for class instances, how does it work?) 
 
 
