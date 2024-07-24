@@ -3,7 +3,7 @@
 I left links to useful resources wherever I could, but in general please Google any resource you can find on the below-mentioned topics.  
 Anything works really, as long as you get a general understanding of the subject and you are comfortable in using Python and its ecosystem to achieve certain things. 
 
-You don't need to become an expert, but please do make some effort in reading about these subjects. The more you familiarise yourself with, the more you'll be able to contribute to.
+You don't need to become an expert, and you don't need to do everything in this list. But please do make some effort in reading about these subjects, in particular the ones that interest you the most. The more you familiarise yourself with, the more you'll be able to contribute to our work.
 
 ## Python and programming
 
@@ -65,8 +65,13 @@ In general, you should make sure you cover and understand the following points:
 - Mutable VS immutable types in Python: learn the difference (e.g. can you modify a list? Can you modify a tuple?)
 - Understand pass-by-value and pass-by-reference (e.g. https://www.geeksforgeeks.org/pass-by-reference-vs-value-in-python/)
 - "Python is a dynamic programming language", understand what that means. Understand the difference with static typed languages (e.g. C#). You don't need to know another language, but to understand the difference it helps to try another out (e.g. just declaring variables/classes in a static language like C#).
-- Understand the Typing python module is and why it is useful in dynamic typing. Understand "Type Hints" and "Annotations" are. We use Typing a lot in our work.
+- The following two are very important; **we rely on them a lot, because they are of fundamental importance when creating larger programs, and we expect you to use them in our work**:
+    - [IMPORTANT] ❗ Understand ["Type Hints"](https://realpython.com/lessons/type-hinting/) and try them in some scripts. Understand how they help in reducing the issues with Dynamic programming languages, see below.
+    - [IMPORTANT] ❗ Understand what [Annotations](https://blog.logrocket.com/understanding-type-annotation-python/) are (basically, advanced type hints) and try them.
+    - [IMPORTANT] ❗ Understand the [Typing python module](https://realpython.com/python-type-checking/) is and why it is useful in dynamic typing.
 - Try adding Typing to previous functions or class properties that you may have written. See how it works.
+- Understand [basic guidelines](https://www.linkedin.com/advice/3/how-can-you-write-modular-python-code-efficient-data-scjdf) to write good functions and Python code.
+- Undrestand the [`if __name__ == "__main__"](https://realpython.com/if-name-main-python/) Python statement and what is a Python module VS Script.
 
 
 ### Intermediate Object-oriented Python
@@ -95,15 +100,13 @@ In general, you should make sure you cover and understand the following points:
 # Data science and Machine Learning
 
 ## Basics of statistics
-- Basics of descriptive statistics: mean, variance, stdev, covariance, correlation. Try computing them in Python using the Pandas package.
-- ... TODO
+- [Basics of descriptive statistics](https://www.tutorialspoint.com/python_pandas/python_pandas_descriptive_statistics.htm): mean, variance, stdev, covariance, correlation. Try computing them in Python using the Pandas package or similar ones.
+- [Function approximation; differences between Classification and Regression models](https://machinelearningmastery.com/classification-versus-regression-in-machine-learning/).
+- What is a [statistical modelling](https://www.simplilearn.com/tutorials/statistics-tutorial/what-is-statistical-modeling)? Differences/similarities with Machine Learning.
 
 ## Basics of Machine Learning
-- What is a statistical model?
-- Understand the differences between classical ML (non-deep learning) vs Neural Networks VS Reinforcement Learning
 
-### Classical ML
-The following can be done using any Python package that supports them, or 
+The following can be done using any Python package that supports them:
 - Try [linear regression](https://www.w3schools.com/python/python_ml_linear_regression.asp)
 - Try [polynomial regression](https://www.w3schools.com/python/python_ml_polynomial_regression.asp)
 - Try clustering techniques, e.g.: [K-means](https://www.w3schools.com/python/python_ml_k-means.asp), [others](https://scikit-learn.org/stable/modules/clustering.html)
@@ -116,8 +119,11 @@ The following can be done using any Python package that supports them, or
 - Understand [when Deep Learning is useful](https://blog.dataiku.com/when-and-when-not-to-use-deep-learning), rather than non-DL approaches.
 - Understand how DL can be done via Python frameworks (e.g. learn about common frameworks). Have a look at [Pytorch](https://pytorch.org/docs/stable/index.html), [Tensorflow](https://www.tensorflow.org/learn), [Scikit-learn](https://scikit-learn.org/stable/modules/neural_networks_supervised.html), [Keras](https://keras.io/getting_started/intro_to_keras_for_engineers/). You don't need to try them all, just understand there are many frameworks and that they differ in many ways; we focus on using Pytorch.
 - Try this [60-minute Pytorch tutorial](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#goal-of-this-tutorial).
+- Understand that there are many types of Neural Network (NN) architectures. We are mostly interested in Recurrent and Convolutional Neural Networks.
+- Understand the differences between [**Predictive VS Generative AI**](https://www.coursera.org/articles/generative-ai-vs-predictive-ai). We won't do Generative AI, we focus only on Predictive AI. 
 
 ### Computer vision
 We use mostly computer vision in our work.
-- Understand Computer Vision
-- 
+- Understand [what is Computer Vision](https://www.simplilearn.com/computer-vision-article)
+- Understand the [common tasks in Computer vision](https://www.smart-interaction.com/2022/07/14/computer-vision-the-ultimate-guide-on-the-4-main-tasks/)
+- Read about the COCO format (we use it in our work)
