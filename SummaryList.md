@@ -33,9 +33,8 @@ In general, you should make sure you cover and understand the following points:
 - What is a package in Python. Difference with a module.
 - What is PIP? Try using it to install some packages. Where are those packages installed (in what folder of your machine)?
 - Understand that when you install Python you effectively install a Python runtime executable (an .exe, in Windows), which is the program that runs your Python scripts/programs. This is called a Python "interpreter". Understand that there are many different versions of Python interpreters (we mostly use 3.10.xx and/or 3.8.xx).
-- What is an environment in Python? Understand why it's important to **always** work in an environment. Where do packages installed with PIP end on your machine, when you call PIP from an environment?
-- Learn to create an environment and activate/deactivate it. See [this guide](https://code.visualstudio.com/docs/python/python-tutorial#_create-a-python-source-code-file) that explains how environments are integrated in VSCode.
-- Understand the Debugger and how it works in Python. See [this guide](https://code.visualstudio.com/docs/python/python-tutorial#_configure-and-run-the-debugger).
+- [IMPORTANT] ❗ What is an environment in Python? Understand why it's important to **always** work in an environment. Where do packages installed with PIP end on your machine, when you call PIP from an environment?
+- [IMPORTANT] ❗ Learn to create an environment and activate/deactivate it. See [this guide](https://code.visualstudio.com/docs/python/python-tutorial#_create-a-python-source-code-file) that explains how environments are integrated in VSCode.
 
 
 ### Basics of Git
@@ -70,9 +69,9 @@ In general, you should make sure you cover and understand the following points:
     - [IMPORTANT] ❗ Understand what [Annotations](https://blog.logrocket.com/understanding-type-annotation-python/) are (basically, advanced type hints) and try them.
     - [IMPORTANT] ❗ Understand the [Typing python module](https://realpython.com/python-type-checking/) is and why it is useful in dynamic typing.
 - Try adding Typing to previous functions or class properties that you may have written. See how it works.
-- Understand [basic guidelines](https://www.linkedin.com/advice/3/how-can-you-write-modular-python-code-efficient-data-scjdf) to write good functions and Python code.
-- Undrestand the [`if __name__ == "__main__"](https://realpython.com/if-name-main-python/) Python statement and what is a Python module VS Script.
-
+- [IMPORTANT] ❗ Understand [basic guidelines](https://www.linkedin.com/advice/3/how-can-you-write-modular-python-code-efficient-data-scjdf) to write good functions and Python code.
+- [IMPORTANT] ❗ Understand the [`if __name__ == "__main__"](https://realpython.com/if-name-main-python/) Python statement and what is a Python module VS Script.
+- [IMPORTANT] ❗ Understand the Debugger and how it works in Python. See [this guide](https://code.visualstudio.com/docs/python/python-tutorial#_configure-and-run-the-debugger).
 
 ### Intermediate Object-oriented Python
 - What is inheritance. How can it be useful. Do exercises.
