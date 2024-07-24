@@ -24,7 +24,7 @@ In general, you should make sure you cover and understand the following points:
 
 - Basic syntax in Python. Define variables.
 - [IMPORTANT] ❗ Control flow structures: if-else
-- [IMPORTANT] ❗ Define functions
+- [IMPORTANT] ❗ [Define functions](https://www.w3schools.com/python/python_functions.asp); feel free to skip (don't do) `*args` and `**kwargs` which I personally consider a bad code practice.
 - [IMPORTANT] ❗ Basic built-in data structures: 
 	- Lists
 	- Tuples
