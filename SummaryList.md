@@ -102,6 +102,7 @@ In general, you should make sure you cover and understand the following points:
 ## Basics of statistics
 - [Basics of descriptive statistics](https://www.tutorialspoint.com/python_pandas/python_pandas_descriptive_statistics.htm): mean, variance, stdev, covariance, correlation. Try computing them in Python using the Pandas package or similar ones.
 - [Function approximation; differences between Classification and Regression models](https://machinelearningmastery.com/classification-versus-regression-in-machine-learning/).
+- [IMPORTANT] ❗ Understand well [what is a Classifier](https://deepai.org/machine-learning-glossary-and-terms/classifier) and its related evaluation metrics (Accuracy, Precision, etc.), including what is a [Confusion Matrix](https://www.geeksforgeeks.org/confusion-matrix-machine-learning/) and True Positives, False Positives, True Negatives, False Negatives (we use all of these in our work).
 - What is a [statistical modelling](https://www.simplilearn.com/tutorials/statistics-tutorial/what-is-statistical-modeling)? Differences/similarities with Machine Learning.
 
 ## Basics of Machine Learning
@@ -126,4 +127,4 @@ The following can be done using any Python package that supports them:
 We use mostly computer vision in our work.
 - Understand [what is Computer Vision](https://www.simplilearn.com/computer-vision-article)
 - Understand the [common tasks in Computer vision](https://www.smart-interaction.com/2022/07/14/computer-vision-the-ultimate-guide-on-the-4-main-tasks/)
-- Read about the COCO format (we use it in our work)
+- Read about the [COCO format](https://www.v7labs.com/blog/coco-dataset-guide); we use it in our work, and we focus on the Object Detection task.
