@@ -77,32 +77,37 @@ In general, you should make sure you cover and understand the following points:
 - [IMPORTANT] ❗ Understand the Debugger and how it works in Python. See [this guide](https://code.visualstudio.com/docs/python/python-tutorial#_configure-and-run-the-debugger).
 
 ### Intermediate Object-oriented Python
-- What is inheritance. How can it be useful. Do exercises.
-- What are [DataClasses](https://www.dataquest.io/blog/how-to-use-python-data-classes/)? Try them out. We use them a lot in our code.
+- [IMPORTANT] ❗ What is [inheritance](https://realpython.com/inheritance-composition-python/). How can it be useful. Do exercises.
+- [IMPORTANT] ❗ What are [DataClasses](https://www.dataquest.io/blog/how-to-use-python-data-classes/)? Try them out. We use them a lot in our code.
 - What is an [object reference](https://stackoverflow.com/questions/35488769/what-is-an-object-reference-in-python)?
 - What is [shallow cloning and what is deep cloning](https://realpython.com/copying-python-objects/). Differences. How to do either in Python.
-- How does the equality operator == behave when comparing objects (e.g. for class instances, how does it work?) 
+- [IMPORTANT] ❗ Understand [object identity in Python](https://realpython.com/courses/python-is-identity-vs-equality/); wow does the equality operator `==` VS `is` behave when comparing objects (e.g. for class instances, how does it work?)
+- [IMPORTANT] ❗ Learn how to use the [`type()` operator](https://switowski.com/blog/type-vs-isinstance/), and the [`isinstance()` operator](https://www.w3schools.com/python/ref_func_isinstance.asp) and how it differs from `is`; we use all of them a lot. 
 
 
-### Algorithms and data structures.
-- Understand what recursion is. Try define a function that calculates the Fibonacci sequence with and without recursion.
-- Understand what "memoisation" means and try rewriting the Fibonacci solutions by adding some simple memoisation strategy.
-- Understand why data structures are useful in solving some problems.
-- Understand what is complexity. Time and Space complexity.
+### Algorithms and data structures
+
+- Understand what an algorithm complexity is. Get an idea of Time and space complexity. Get an idea of the Big-O notation.
+- Understand the [Time-space tradeoff](https://www.geeksforgeeks.org/time-space-trade-off-in-algorithms/).
+- [IMPORTANT] ❗ Understand what recursion is, maybe following the example for the [Fibonacci function](https://realpython.com/fibonacci-sequence-python/). Understand how it can be implemented with and without recursion.
+- [IMPORTANT] ❗ Understand what [memoisation](https://kyleshevlin.com/memoization/) is and try rewriting the [Fibonacci with simple memoisation](https://realpython.com/fibonacci-sequence-python/#memoizing-the-recursive-algorithm) strategy.
+
+- Understand [why data structures are useful](https://www.linkedin.com/advice/0/why-data-structures-important-computer-science-cl85c) in solving some problems.
+
+Data structures and algorithms can be complex, but you can just try and understand some basics for the following ones; in general, don't get stuck on them if you find them too difficult, but do have a read on them:
 - Understand what a Stack is. Try implementing one using a list and/or in other ways.
 - Understand what a Queue is. Try implementing one using a list and/or in other ways.
 - Understand what a Linked List is. Try implementing one.
 - Understand what a HashTable is and how it is the backing data structure of Dictionaries.
 - Understand what a Binary Tree is, and that it is a specific simple case of a more general graph structure. Try implementing one.
-- Understand what an algorithm complexity is. Get an idea of Time and space complexity. Get an idea of the Big-O notation.
 - Try solving some exercises that require you to write Data Structures and get an idea of the complexity of your solution.
 
 
 # Data science and Machine Learning
 
 ## Basics of statistics
-- [Basics of descriptive statistics](https://www.tutorialspoint.com/python_pandas/python_pandas_descriptive_statistics.htm): mean, variance, stdev, covariance, correlation. Try computing them in Python using the Pandas package or similar ones.
-- [Function approximation; differences between Classification and Regression models](https://machinelearningmastery.com/classification-versus-regression-in-machine-learning/).
+- [IMPORTANT] ❗ [Basics of descriptive statistics](https://www.tutorialspoint.com/python_pandas/python_pandas_descriptive_statistics.htm): mean, variance, stdev, covariance, correlation. Try computing them in Python using the Pandas package or similar ones.
+- [IMPORTANT] ❗ [Function approximation; differences between Classification and Regression models](https://machinelearningmastery.com/classification-versus-regression-in-machine-learning/).
 - [IMPORTANT] ❗ Understand well [what is a Classifier](https://deepai.org/machine-learning-glossary-and-terms/classifier) and its related evaluation metrics (Accuracy, Precision, etc.), including what is a [Confusion Matrix](https://www.geeksforgeeks.org/confusion-matrix-machine-learning/) and True Positives, False Positives, True Negatives, False Negatives (we use all of these in our work).
 - What is a [statistical modelling](https://www.simplilearn.com/tutorials/statistics-tutorial/what-is-statistical-modeling)? Differences/similarities with Machine Learning.
 
