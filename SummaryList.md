@@ -26,9 +26,9 @@ In general, you should make sure you cover and understand the following points:
 - [IMPORTANT] ❗ Control flow structures: if-else
 - [IMPORTANT] ❗ [Define functions](https://www.w3schools.com/python/python_functions.asp); feel free to skip (don't do) `*args` and `**kwargs` which I personally consider a bad code practice.
 - [IMPORTANT] ❗ Basic built-in data structures: 
-	- Lists
-	- Tuples
-	- Dictionary
+	- [Lists](https://www.w3schools.com/python/python_lists.asp). Understand that they are _ordered_.
+	- [Tuples](https://www.w3schools.com/python/python_tuples.asp). Understand that [they can be used as a return type of functions](https://pieriantraining.com/python-tuples-how-to-return-them-like-a-pro), although _you shouldn't do it_: prefer `dataclass`es, or at least always type-hint them (see Intermediate Python section below).
+	- [Dictionaries](https://www.w3schools.com/python/python_dictionaries.asp). Understand that [they are _unordered_ (in many cases)](https://stackoverflow.com/a/39980744/3873799) and that it can be better to treat them as unordered, and what that can imply for your code.
 
 - [IMPORTANT] ❗ What is [PIP](https://www.w3schools.com/python/python_pip.asp)? Try using it to install some packages. Where are those packages installed (in what folder of your machine)?
 - [IMPORTANT] ❗ Understand that when you install Python you effectively install a Python runtime executable (an .exe, in Windows), which is the program that runs your Python scripts/programs. This is called a Python "interpreter". Understand that there are many different versions of Python interpreters (we mostly use 3.10.xx and/or 3.8.xx).
