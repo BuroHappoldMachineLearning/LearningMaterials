@@ -55,14 +55,10 @@ In general, you should make sure you cover and understand the following points:
 
 
 ### Basics of Object-oriented Python
-- [IMPORTANT] ❗ What is a [class](https://www.w3schools.com/python/python_classes.asp) in Python?
-- What is an object (= instance of a class)?
-- What are properties (this is the more exact name, but in Python, they're called "attributes") of a class?
+- [IMPORTANT] ❗ What is a [class](https://www.w3schools.com/python/python_classes.asp) in Python? What are properties (this is the more exact name, but in Python, they're called "attributes") of a class? What is an object (= instance of a class)? What is a constructor (sometimes shortened as "ctor")? Define a class, do exercises.
 - [IMPORTANT] ❗ What are [getters and setters](https://realpython.com/python-getter-setter/) in Python? Understand the `self` keyword.
 - [Private methods](https://www.geeksforgeeks.org/private-methods-in-python/) VS Public methods and fields. What is the difference, how can you do that in Python?
-- What is a constructor (sometimes shortened as "ctor")?
-- Define a class, do exercises
-
+- ["Python is a dynamic programming language"](https://www.bairesdev.com/blog/static-vs-dynamic-typing/), understand what that means. Understand the difference with static typed languages (e.g. C#). You don't need to know another language, but to understand the difference it helps to try another out (e.g. just declaring variables/classes in a static language like C#).
 
 ### Intermediate Python
 
@@ -70,7 +66,6 @@ In general, you should make sure you cover and understand the following points:
 - [IMPORTANT] ❗ What is a package in Python. Difference with a module.
 - What are decorators, how can decorators be useful. Try writing a decorator.
 - Understand [pass-by-value and pass-by-reference](https://www.geeksforgeeks.org/pass-by-reference-vs-value-in-python/) in Python.
-- ["Python is a dynamic programming language"](https://www.bairesdev.com/blog/static-vs-dynamic-typing/), understand what that means. Understand the difference with static typed languages (e.g. C#). You don't need to know another language, but to understand the difference it helps to try another out (e.g. just declaring variables/classes in a static language like C#).
 - The following two are very important; **we rely on them a lot, because they are of fundamental importance when creating larger programs, and we expect you to use them in our work**:
     - [IMPORTANT] ❗ Understand ["Type Hints"](https://realpython.com/lessons/type-hinting/) and try them in some scripts. Understand how they help in reducing the issues with Dynamic programming languages, see below.
     - [IMPORTANT] ❗ Understand what [Annotations](https://blog.logrocket.com/understanding-type-annotation-python/) are (basically, advanced type hints) and try them.
