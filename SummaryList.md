@@ -1,9 +1,12 @@
 # Python and Machine Learning topic list with references
 
+This is a (somewhat) comprehensive list of topics that I could think of as useful to contribute to our work in the Machine Learning R&D space.
+
 I left links to useful resources wherever I could, but in general you may need to Google additional resources on the below-mentioned topics.  
 Anything works really, as long as you get a general understanding of the subject and you are comfortable in using Python and its ecosystem to achieve certain things. 
 
-You don't need to become an expert, and you don't need to do everything in this list. But please do make some effort in reading about these subjects, in particular the ones that interest you the most, and possibly the ones marked with [IMPORTANT] ❗. The more you familiarise yourself with, the more you'll be able to contribute to our work.
+**You don't need to become an expert in these topics**, and _you don't need to do **everything** in this list_. However, please do make some effort to read about many of these, and trying out some code for them, in particular for _the ones that interest you the most_, and possibly the ones marked with [IMPORTANT] ❗.  
+The more you familiarise yourself with, the more you'll be able to contribute to our work.
 
 ## Python and programming
 
