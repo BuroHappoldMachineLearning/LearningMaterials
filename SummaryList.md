@@ -75,7 +75,7 @@ In general, you should make sure you cover and understand the following points:
 - [IMPORTANT] ❗ Understand the [`if __name__ == "__main__"](https://realpython.com/if-name-main-python/) Python statement and what is a Python module VS Script.
 - [IMPORTANT] ❗ Understand the Debugger and how it works in Python. See [this guide](https://code.visualstudio.com/docs/python/python-tutorial#_configure-and-run-the-debugger).
 
-### Intermediate Object-oriented Python
+#### Intermediate Object-oriented Python
 - [IMPORTANT] ❗ What is [inheritance](https://realpython.com/inheritance-composition-python/). How can it be useful. Do exercises.
 - [IMPORTANT] ❗ What are [DataClasses](https://www.dataquest.io/blog/how-to-use-python-data-classes/)? Try them out. We use them a lot in our code.
 - What is an [object reference](https://stackoverflow.com/questions/35488769/what-is-an-object-reference-in-python)?
