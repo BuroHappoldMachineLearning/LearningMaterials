@@ -27,7 +27,7 @@ In general, you should make sure you cover and understand the following points:
 - [IMPORTANT] ❗ [Define functions](https://www.w3schools.com/python/python_functions.asp); feel free to skip (don't do) `*args` and `**kwargs` which I personally consider a bad code practice.
 - [IMPORTANT] ❗ Basic built-in data structures: 
 	- [Lists](https://www.w3schools.com/python/python_lists.asp). Understand that they are _ordered_.
-	- [Tuples](https://www.w3schools.com/python/python_tuples.asp). Understand that [they can be used as a return type of functions](https://pieriantraining.com/python-tuples-how-to-return-them-like-a-pro), although _you shouldn't do it_: prefer `dataclass`es, or at least always type-hint them (see Intermediate Python section below).
+	- [Tuples](https://www.w3schools.com/python/python_tuples.asp). Understand that [they can be used as a return type of functions](https://pieriantraining.com/python-tuples-how-to-return-them-like-a-pro), although _you shouldn't do it_: prefer `dataclass`es, or at least always type-hint them (see [Intermediate Python section](#intermediate-python) below).
 	- [Dictionaries](https://www.w3schools.com/python/python_dictionaries.asp). Understand that [they are _unordered_ (in many cases)](https://stackoverflow.com/a/39980744/3873799) and that it can be better to treat them as unordered, and what that can imply for your code.
 
 - [IMPORTANT] ❗ What is [PIP](https://www.w3schools.com/python/python_pip.asp)? Try using it to install some packages. Where are those packages installed (in what folder of your machine)?
