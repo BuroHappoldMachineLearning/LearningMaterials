@@ -8,6 +8,8 @@ Anything works really, as long as you get a general understanding of the subject
 **You don't need to become an expert in these topics**, and _you don't need to do **everything** in this list_. However, please do make some effort to read about many of these, and trying out some code for them, in particular for _the ones that interest you the most_, and possibly the ones marked with [IMPORTANT] ❗.  
 The more you familiarise yourself with, the more you'll be able to contribute to our work.
 
+Remember to reach out to others for help, questions and feedback! We are all continously learning 🚀
+
 ## Python and programming
 
 
