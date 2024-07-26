@@ -137,3 +137,10 @@ We use mostly computer vision in our work.
 - Understand [what is Computer Vision](https://www.simplilearn.com/computer-vision-article)
 - Understand the [common tasks in Computer vision](https://www.smart-interaction.com/2022/07/14/computer-vision-the-ultimate-guide-on-the-4-main-tasks/)
 - Read about the [COCO format](https://www.v7labs.com/blog/coco-dataset-guide); we use it in our work, and we focus on the Object Detection task.
+
+
+### Knowledge representation
+- What is a [Schema](https://www.computerhope.com/jargon/s/schema.htm)? Understand that a schema can be defined in various ways, e.g. as a Database Schema for a relational database (e.g. SQL) or as a set of OOP classes (e.g. C# classes, like in BHoM), or in many other ways (e.g. [RDFS](https://en.wikipedia.org/wiki/RDF_Schema)).
+- [What is an **ontology**, and what are the differences with a schema](http://www.dl.edi-info.ir/Ontology%20and%20database%20schema,%20What%20is%20the%20difference.pdf)? Understand that the fundamental focus of an ontology is to specify and share meaning, while the fundamental focus for a database schema is to describe data, but they are [essentially the same thing](https://www.w3.org/wiki/SchemaVsOntology).
+- What is a [Knowledge Graph](https://www.ontotext.com/knowledgehub/fundamentals/what-is-a-knowledge-graph/)? You can think of it as an instance of an Ontology, much like an Object is an instance of a Class in an OOP language schema.
+- What is a [Knowledge Base](https://blog.diffbot.com/knowledge-graph-glossary/knowledge-base/) and how does it differ from a Knowledge Graph? Understand that all knowledge graphs are knowledge bases, while not every knowledge base qualifies as a knowledge graph.
