@@ -136,7 +136,7 @@ The following can be done using any Python package that supports them:
 We use mostly computer vision in our work.
 - Understand [what is Computer Vision](https://www.simplilearn.com/computer-vision-article)
 - Understand the [common tasks in Computer vision](https://www.smart-interaction.com/2022/07/14/computer-vision-the-ultimate-guide-on-the-4-main-tasks/)
-- Read about the [COCO format](https://www.v7labs.com/blog/coco-dataset-guide); we use it in our work, and we focus on the Object Detection task.
+- Read about the [COCO format](https://www.v7labs.com/blog/coco-dataset-guide); we use it in our work, and we focus on the Object Detection task. Check also the [Format](https://cocodataset.org/#format-data).
 
 
 ### Knowledge representation
