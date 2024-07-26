@@ -105,8 +105,11 @@ Data structures and algorithms can be complex, but you can just try and understa
 
 # Data science and Machine Learning
 
+If you want to help also with Data Science and Machine Learning-related tasks, you should cover the following points too.  
+Otherwise, you can stop at the points above and you'll still be able to contribute to Software Engineering-related tasks.
+
 ## Basics of statistics
-- [Basics of descriptive statistics](https://www.tutorialspoint.com/python_pandas/python_pandas_descriptive_statistics.htm): mean, variance, stdev, covariance, correlation. Try computing them in Python using the Pandas package or similar ones.
+- [IMPORTANT] ❗ [Basics of descriptive statistics](https://www.tutorialspoint.com/python_pandas/python_pandas_descriptive_statistics.htm): mean, variance, stdev, covariance, correlation. Try computing them in Python using the Pandas package or similar ones.
 - [IMPORTANT] ❗ [Function approximation; differences between Classification and Regression models](https://machinelearningmastery.com/classification-versus-regression-in-machine-learning/).
 - [IMPORTANT] ❗ Understand well [what is a Classifier](https://deepai.org/machine-learning-glossary-and-terms/classifier) and its related evaluation metrics (Accuracy, Precision, etc.), including what is a [Confusion Matrix](https://www.geeksforgeeks.org/confusion-matrix-machine-learning/) and True Positives, False Positives, True Negatives, False Negatives (we use all of these in our work).
 - What is a [statistical modelling](https://www.simplilearn.com/tutorials/statistics-tutorial/what-is-statistical-modeling)? Differences/similarities with Machine Learning.
