@@ -27,7 +27,7 @@ Then press Enter:
 
 ![image](https://github.com/user-attachments/assets/dfe6f00f-9d71-4073-9077-1b7eaa034f5f)
 
-And add the text in a concise but comprehensive way:
+And add the text in a concise but comprehensive way. Make sure to add type information regarding your inputs and outputs.
 
 ![image](https://github.com/user-attachments/assets/526dee4d-528d-4dcc-9945-03bc42d5b3c9)
 
