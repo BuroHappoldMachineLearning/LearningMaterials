@@ -210,6 +210,9 @@ Check these code guidelines to create good tests and always strive to do Unit te
 You can also do [Test-Driven Development (TDD)](https://testdriven.io/blog/modern-tdd/) e.g. you first thik about the main use cases for your function, and create the test first, which can call an empty stub for your function (a `divide_integer_by_two()` function that does nothing).
 You can use those tests to inform the content of your function. You can run your tests first and check that they all _fail_. Then, you develop your code accordingly, and your function will be correct when all tests have passed.
 
+### 6.1 Provide descriptions to your test functions whenever possible.
+
+It's generally useful to leave a description about what your test is about, unless it's particularly clear from the code itself. See examples above.
 
 
 ## 7. If coding in the ML_CAD_Assistant repository, make sure that you have your files in the repository /data path in the correct way.
