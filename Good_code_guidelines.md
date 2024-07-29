@@ -167,11 +167,11 @@ This folder is divided in 3 subfolders:
 
 The way you should place your data is as follows:
 
-5.1 copy all the files that you need for development in the development data folder.
+- copy all the files that you need for development in the development data folder.
 
-5.2 of those files, add a copy of the ones that you need for _testing_ in the test data folder, using the same folder structure.
+- of those files, add a copy of the ones that you need for _testing_ in the test data folder, using the same folder structure.
 
-5.3 of those files, copy the files that you need for _production_ in the production data folder, using the same folder structure.
+- of those files, copy the files that you need for _production_ in the production data folder, using the same folder structure.
 
 
 ## 8. If coding in the ML_CAD_Assistant repository, make sure that any filepath is referenced via the _globals DATA_PATH variable.
