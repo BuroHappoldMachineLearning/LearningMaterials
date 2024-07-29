@@ -78,7 +78,7 @@ def divide_integer_by_two(input_integer : int) -> float:
     return input_integer / 2
 ```
 
-### 2.1 **Make sure to type-hint dictionaries**. 
+### 2.1 **Make sure to type-hint dictionaries** and describe what their key/value are supposed to represent.
 
 All Dictionaries should be type-annotated, and a comment should be left to say what their key and value are supposed to represent.
 
