@@ -1,5 +1,8 @@
 # Guidelines for Good code
-These guidelines should be followed whenever coding in our Machine Learning organisation. When you raise a PR, your code will be reviewed following this criteria (in addition to code correctness and other measures).
+
+You can use this guide as a _checklist_ to make sure your code is of good quality, so it's easier to collaborate with each other and create a robust codebase.
+
+When you raise a PR, your code will be reviewed following this criteria (in addition to code correctness and other measures).
 
 ## Before starting
 
