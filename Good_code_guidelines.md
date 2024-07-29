@@ -40,7 +40,7 @@ Checklist:
 
 Always prefer [_dataclasses_](https://github.com/BuroHappoldMachineLearning/LearningMaterials/blob/main/SummaryList.md#basics-of-python) in these cases. They are much simpler to understand for others and they can be used/reused easily. Remember to add descriptions to your dataclasses to help others understand what they are about.
 
-### 1.2 Avoid returning tuples from your functions
+### 1.2 Avoid returning Tuples from your functions
 
 You may be often tempted to [return multiple outputs from your Python function](https://stackoverflow.com/q/354883/3873799), for example using Tuples, e.g.:
 
@@ -52,9 +52,11 @@ def function_returning_multiple_outputs():
 
 While this is valid Python code, it is incredibly hard for others to use, even if you type-hint the output tuple. Always prefer dataclasses (see above point).
 
-- [Named Tuples](https://www.geeksforgeeks.org/namedtuple-in-python/) are also a bad idea. Dataclasses are much easier to understand, to manage and to reuse.
+[Named Tuples](https://www.geeksforgeeks.org/namedtuple-in-python/) are also a bad idea. Dataclasses are much easier to understand, to manage and to reuse.
 
-- Dictionaries are ok as an output or input, but please strive to type-annotate them. See below point.
+### 1.3 If you have an input or output Dictionary, please strive to type-annotate them.
+
+Dictionaries are ok as an output or input, but please strive to type-annotate them. Please see the below point.
 
 ## 2. Add type-hints (annotations) for every input and output parameter of your functions, _whenever possible_. 
 
