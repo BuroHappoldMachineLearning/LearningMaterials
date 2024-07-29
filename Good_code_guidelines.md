@@ -90,8 +90,9 @@ For example:
 
 ```python
 def divide_values_by_two(input_data : Dict[str, int]) -> Dict[str, float]:
-    """Take an input Dictionary where its values must be integers, iterate all its keys, get the corresponding values and divide them by two.
-    Return the divided value as a float in a new Dictionary with the same keys as the original Dictionary. 
+    """Take an input Dictionary where its values must be integers, iterate all its keys,
+    get the corresponding values and individually divide them by two.
+    Return a new Dictionary where the keys are the same as the original Dictionary, and the values are the original Dictionary's values divided by 2. 
 
     Args:
         input_data (Dict[str, int]): Input Dictionary where its values must be integers.
