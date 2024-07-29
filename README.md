@@ -3,3 +3,4 @@ Learning materials for Python and Machine Learning.
 
 1. [List of topics to cover for Python and Machine Learning](SummaryList.md)
 2. [Code guidelines for good code](Good_code_guidelines.md)
+3. You can find [additional guides and FAQs for ML developments here](https://github.com/BuroHappoldMachineLearning/ML_Documentation).
