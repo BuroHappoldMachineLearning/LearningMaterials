@@ -54,7 +54,7 @@ While this is valid Python code, it is incredibly hard for others to use, even i
 
 [Named Tuples](https://www.geeksforgeeks.org/namedtuple-in-python/) are also a bad idea. Dataclasses are much easier to understand, to manage and to reuse.
 
-### 1.3 If you have an input or output Dictionary, please strive to type-annotate them.
+### 1.3 For input or output Dictionaries, please strive to type-annotate them.
 
 Dictionaries are ok as an output or input, but please strive to type-annotate them. Please see the below point.
 
