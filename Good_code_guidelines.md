@@ -153,8 +153,9 @@ In the ML_CAD_Assistant repository, we organise all data in the `data` folder of
 This folder is divided in 3 subfolders: 
 - `development` for data that is used to develop functionality. This folder is supposed to be as large as needed, the largest of the 3. For this reason, it is not tracked in the GitHub repository (i.e. it is not uploaded in the repository, it's [`gitignore`d](https://www.w3schools.com/git/git_ignore.asp?remote=github)). We must manually copy this folder and link it in any development enviroment (Virtual Machine or Workstation/Laptop) that we use for development. More info about this below. Note that we considered using [`git-lfs`](https://git-lfs.com/) but decided not to use it (reach out if you are curious why).
 - `testing` for data that is used for unit tests or general testing. This folder is supposed to be smaller than the `development` folder in total size, but larger than the `production` one. It should contain a copy of any data required for testing. The data needs to be copied (not linked) because this data is required by the test automation suites that will clone our repository. For this reason, this folder is tracked in git (e.g. actually uploaded to the repository).
-- 
-- 
+- `production` for data that must be present when we deploy our functionality. This should be the smallest of the three folders in terms of size, and contain only essential files that should be present when running the code in production. We typically deploy using Docker. 
+
+The way you should place your data is as follows:
 
 5.1 copy all the files that you need for development in the development data folder.
 
@@ -164,7 +165,14 @@ This folder is divided in 3 subfolders:
 
 
 ## 7. If coding in the ML_CAD_Assistant repository, make sure that any filepath is referenced via the _globals DATA_PATH variable.
+
+The code should access the data folders (see above) in a flexible way.  
+For this reason, we centralised the data access functionality in the `_globals.py` file, that is located at the root `src` code directory of the repository.
+
 We centralise most settings in a `_globals.py` file, in particular, settings regarding data in filepaths.
+
+[TODO finish writing]
+
 
 
 
