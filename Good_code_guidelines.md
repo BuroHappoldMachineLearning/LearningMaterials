@@ -86,6 +86,27 @@ For dictionaries that are input or outputs of a function, you should write their
 
 See example [here](https://pavolkutaj.medium.com/explaining-type-hints-for-dictionaries-in-python-187d712df631). 
 
+For example:
+
+```python
+def divide_values_by_two(input_data : Dict[str, int]) -> Dict[str, float]:
+    """Take an input Dictionary where its values must be integers, iterate all its keys, get the corresponding values and divide them by two.
+    Return the divided value as a float in a new Dictionary with the same keys as the original Dictionary. 
+
+    Args:
+        input_data (Dict[str, int]): Input Dictionary where its values must be integers.
+
+    Returns:
+        Dict[str, float]: Output Dictionary where the keys are the same as the input Dictionary and its values are the individual input Dictionary values divided by two.
+    """
+    output_data : Dict[str, float] = {} # Add a description here. E.g. the key represent the name of the number, the value represents a measure of something.
+    
+    for k, v in input_data:
+        output_data[k] = v / 2
+    
+    return output_data
+```
+
 ### 2.2 **If type hints are not available for your package**. 
 
 In some cases, typing classes may not be available directly within the Python package you are dealing with, e.g. OpenCV. Still try to add type-hinting if you can.
