@@ -2,13 +2,14 @@
 
 You can use this guide as a _checklist_ to make sure your code is of good quality, so it's easier to collaborate with each other and create a robust codebase.
 
-When you raise a PR, your code will be reviewed following this criteria (in addition to code correctness and other measures).
+When you raise a PR, your code will be reviewed following this criteria (in addition to code correctness and other criteria).
 
 ## Before starting
 
 Make sure you have Visual Studio Code fully configured for Python development, and the environments in place:
 - See [this guide for configuring VSCode](SummaryList.md#visual-studio-code-and-python-initial-setup).
 - Ask someone in the team which Python environments you should be using ([learn about them](https://github.com/BuroHappoldMachineLearning/LearningMaterials/blob/main/SummaryList.md#python-environments)) and how you can make a new one. We typically use Conda to manage our environments and we have different (shared) ones depending on the machine/workstation.
+
 
 ## 1. Create clearly scoped functions with a meaningful name that reflect what they do. Add a description to them.
 You functions can be long, but you will often find that short functions are clearer and reusable. E.g.:
