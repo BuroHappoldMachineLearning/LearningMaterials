@@ -80,7 +80,11 @@ def divide_integer_by_two(input_integer : int) -> float:
 
 ### 2.1 **Make sure to type-hint dictionaries**. 
 
-See example [here](https://pavolkutaj.medium.com/explaining-type-hints-for-dictionaries-in-python-187d712df631). For dictionaries input or outputs, also make sure to describe what their key and value are supposed to represent, you should write it in the function input or output description.
+All Dictionaries should be type-annotated, and a comment should be left to say what their key and value are supposed to represent.
+
+For dictionaries that are input or outputs of a function, you should write their key/value description in the function input or output description.
+
+See example [here](https://pavolkutaj.medium.com/explaining-type-hints-for-dictionaries-in-python-187d712df631). 
 
 ### 2.2 **If type hints are not available for your package**. 
 
