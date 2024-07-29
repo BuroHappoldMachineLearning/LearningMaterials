@@ -1,4 +1,4 @@
-# Learning Materials
+# ML and Python learning material
 Learning materials for Python and Machine Learning.
 
 1. [List of topics to cover for Python and Machine Learning](SummaryList.md)
