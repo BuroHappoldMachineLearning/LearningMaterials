@@ -7,7 +7,7 @@ Make sure you have Visual Studio Code fully configured for Python development, a
 - See [this guide for configuring VSCode](SummaryList.md#visual-studio-code-and-python-initial-setup).
 - Ask someone in the team which Python environments you should be using ([learn about them](https://github.com/BuroHappoldMachineLearning/LearningMaterials/blob/main/SummaryList.md#python-environments)) and how you can make a new one. We typically use Conda to manage our environments and we have different (shared) ones depending on the machine/workstation.
 
-## 0. Create clearly scoped functions with a meaningful name that reflect what they do. Add a description to them.
+## 1. Create clearly scoped functions with a meaningful name that reflect what they do. Add a description to them.
 You functions can be long, but you will often find that short functions are clearer and reusable. E.g.:
 ```python
 def divide_integer_by_two(input_integer):
@@ -29,7 +29,7 @@ And add the text in a concise but comprehensive way:
 
 
 
-## 1. Add type-hints (annotations) for every input and output parameter of your functions, _whenever possible_. 
+## 2. Add type-hints (annotations) for every input and output parameter of your functions, _whenever possible_. 
 
 Learn about [Type-hinting and the Typing module](https://realpython.com/lessons/type-hinting/) in Python if you don't know it.
 
@@ -63,7 +63,7 @@ def my_opencv_function(input_image: cv2.typing.MatLike) -> None:
 However, this module is known to cause dependency issues, so it's fine if you want to skip annotating it.  
 This really depends on the situation and comes with experience. Always strive to type-hint (annotate) every parameter that you can.
 
-## 2. Make sure you set optional parameters (e.g. with a default value) is marked with the `Optional` type information and that the default value doesn't cause errors in your code.
+## 3. Make sure you set optional parameters (e.g. with a default value) is marked with the `Optional` type information and that the default value doesn't cause errors in your code.
 
 Use `from typing import Optional` as below to annotate (type-hint) optional parameters, which should always have a default value assigned (e.g. `= something`):
 
@@ -75,7 +75,7 @@ def my_function(required_integer: int, optional_integer : Optional[int] = 0) -> 
 ```
 
 
-## 3. _Null checks_. At the start of the function, make sure to check that any non-Optional (e.g. without default value) input parameters for functions is "not None" or invalid:
+## 4. _Null checks_. At the start of the function, make sure to check that any non-Optional (e.g. without default value) input parameters for functions is "not None" or invalid:
 
 Null checks (verification that an input is not `None`) are extremely useful to return meaningful errors when an input is invalid.  
 Without them, your function may misbehave and return a difficult-to-understand error, especially when it is called from another function.
@@ -93,7 +93,7 @@ def my_function(required_string: str, optional_string : Optional[str] = "") -> s
     # 'optional_string' does not need to be checked for nullity because it's Optional.
 ```
 
-## 4. Make sure that the inputs are of the correct type, based on what your type-hints. Use `isinstance()` to check for the type and raise `TypeError`.
+## 5. Make sure that the inputs are of the correct type, based on what your type-hints. Use `isinstance()` to check for the type and raise `TypeError`.
 
 Learn about [`isinstance()`](https://www.w3schools.com/python/ref_func_isinstance.asp) if you don't know it.  
 It's always better to use `isinstance()` rather than `if type(object) == SomeType` because it allows to [check subclasses too](https://stackoverflow.com/a/1549814/3873799).
@@ -105,7 +105,7 @@ def my_function(some_string: str) -> str:
         raise TypeError(f"The input 'some_string' should be of type String, but was of type {type(some_string)}.")
 ```
 
-## 5. _Test your code_. If you are using some code to try out your function, e.g. a `"if __name__ == "__main__"` code block, consider using its content as a pytest unit test.
+## 6. _Test your code_. If you are using some code to try out your function, e.g. a `"if __name__ == "__main__"` code block, consider using its content as a pytest unit test.
 
 When developing/debugging, you may be using a piece of code to call your function with some prepared input parameters, e.g. in an [`if __name__ == "__main__"` block](https://realpython.com/if-name-main-python/). For example:
 
@@ -153,7 +153,7 @@ You can use those tests to inform the content of your function. You can run your
 
 
 
-## 6. If coding in the ML_CAD_Assistant repository, make sure that you have your files in the repository /data path in the correct way.
+## 7. If coding in the ML_CAD_Assistant repository, make sure that you have your files in the repository /data path in the correct way.
 
 In the ML_CAD_Assistant repository, we organise all data in the `data` folder of the repository.  
 This folder is divided in 3 subfolders: 
@@ -170,7 +170,7 @@ The way you should place your data is as follows:
 5.3 of those files, copy the files that you need for _production_ in the production data folder, using the same folder structure.
 
 
-## 7. If coding in the ML_CAD_Assistant repository, make sure that any filepath is referenced via the _globals DATA_PATH variable.
+## 8. If coding in the ML_CAD_Assistant repository, make sure that any filepath is referenced via the _globals DATA_PATH variable.
 
 The code should access the data folders (see above) in a flexible way.  
 For this reason, we centralised the data access functionality in the `_globals.py` file, that is located at the root `src` code directory of the repository.
