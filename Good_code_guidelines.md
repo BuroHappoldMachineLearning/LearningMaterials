@@ -11,7 +11,7 @@ Make sure you have Visual Studio Code fully configured for Python development, a
 - Ask someone in the team which Python environments you should be using ([learn about them](https://github.com/BuroHappoldMachineLearning/LearningMaterials/blob/main/SummaryList.md#python-environments)) and how you can make a new one. We typically use Conda to manage our environments and we have different (shared) ones depending on the machine/workstation.
 
 
-## 1. Create clearly scoped functions with a meaningful name that reflect what they do. Add a description to them.
+## 0. Create clearly scoped functions with a meaningful name that reflect what they do. Add a description to them.
 You functions can be long, but you will often find that short functions are clearer and reusable. E.g.:
 ```python
 def divide_integer_by_two(input_integer):
@@ -34,13 +34,33 @@ Checklist:
 
 ![image](https://github.com/user-attachments/assets/526dee4d-528d-4dcc-9945-03bc42d5b3c9)
 
+## 1. Avoid complex input or output types, e.g. no nested data structures, no tuples
 
+### 1.1 Avoid using complex data structures like List of Dictionaries, Dictionaries of Dictionaries, and similar, for your function inputs and outputs.
+
+Always prefer [_dataclasses_](https://github.com/BuroHappoldMachineLearning/LearningMaterials/blob/main/SummaryList.md#basics-of-python) in these cases. They are much simpler to understand for others and they can be used/reused easily. Remember to add descriptions to your dataclasses to help others understand what they are about.
+
+### 1.2 Avoid returning tuples from your functions
+
+You may be often tempted to [return multiple outputs from your Python function](https://stackoverflow.com/q/354883/3873799), for example using Tuples, e.g.:
+
+```python
+def function_returning_multiple_outputs():
+    # some code
+    return output1, output2, output3 # DON'T DO THIS
+```
+
+While this is valid Python code, it is incredibly hard for others to use, even if you type-hint the output tuple. Always prefer dataclasses (see above point).
+
+- [Named Tuples](https://www.geeksforgeeks.org/namedtuple-in-python/) are also a bad idea. Dataclasses are much easier to understand, to manage and to reuse.
+
+- Dictionaries are ok as an output or input, but please strive to type-annotate them. See below point.
 
 ## 2. Add type-hints (annotations) for every input and output parameter of your functions, _whenever possible_. 
 
 Learn about [Type-hinting and the Typing module](https://realpython.com/lessons/type-hinting/) in Python if you don't know it.
 
-Here, I've added `: int` to the input parameter, and `-> float` to indicate the type of the output:
+In the example below, I've added `: int` to the input parameter, and `-> float` to indicate the type of the output:
 
 ```python
 def divide_integer_by_two(input_integer : int) -> float:
@@ -56,7 +76,13 @@ def divide_integer_by_two(input_integer : int) -> float:
     return input_integer / 2
 ```
 
-### Note on Type-hinting: in some cases, typing classes may not be available directly within the Python package you are dealing with, e.g. OpenCV. Still try to add type-hinting if you can.
+### 2.1 **Make sure to type-hint dictionaries**. 
+
+See example [here](https://pavolkutaj.medium.com/explaining-type-hints-for-dictionaries-in-python-187d712df631). For dictionaries input or outputs, also make sure to describe what their key and value are supposed to represent, you should write it in the function input or output description.
+
+### 2.2 **If type hints are not available for your package**. 
+
+In some cases, typing classes may not be available directly within the Python package you are dealing with, e.g. OpenCV. Still try to add type-hinting if you can.
 
 For example, in [OpenCV, you need to use an additional module to allow for Typing](https://stackoverflow.com/a/73261016/3873799): `cv2.typing`.
 
