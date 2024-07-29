@@ -84,8 +84,6 @@ All Dictionaries should be type-annotated, and a comment should be left to say w
 
 For dictionaries that are input or outputs of a function, you should write their key/value description in the function input or output description.
 
-See example [here](https://pavolkutaj.medium.com/explaining-type-hints-for-dictionaries-in-python-187d712df631). 
-
 For example:
 
 ```python
