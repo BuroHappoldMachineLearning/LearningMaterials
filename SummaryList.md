@@ -21,7 +21,7 @@ Visual Studio Code (VSCode) is a text editor that supports many extensions to wr
 
 - Python. This is our language of choice for scripting and programming around ML tasks. The guide above should point you in the right direction for installing it. In general, it should be ok to install the latest version from https://www.python.org/downloads/. We will use a few different versions during our work.
 
-- We mostly work on remote Virtual Machines or Workstation computers, because they are more powerful and we can centralise our data there. We connect to them using SSH. See [this guide](https://github.com/BuroHappoldMachineLearning/ML_Documentation/blob/main/Azure/VM_user_guides.md) to learn basic SSH connections. Ask for help when you start developing for our codebase. This guide doesn't require you to use our Virtual Machines or Workstations, you can just use your laptop.
+- We mostly work on remote Virtual Machines or Workstation computers, because they are more powerful and we can centralise our data there. We connect to them using SSH. See [this guide to learn basic SSH connections and set-up](https://github.com/BuroHappoldMachineLearning/ML_Documentation/blob/main/Azure/VM_user_guides.md). Ask for help when you start developing for our codebase. This guide doesn't require you to use our Virtual Machines or Workstations, you can just use your laptop.
 
 ### Basics of Python
 
