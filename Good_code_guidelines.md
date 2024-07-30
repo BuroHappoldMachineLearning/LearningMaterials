@@ -122,6 +122,14 @@ def my_opencv_function(input_image: cv2.typing.MatLike) -> None:
 However, this module is known to cause dependency issues, so it's fine if you want to skip annotating it.  
 This really depends on the situation and comes with experience. Always strive to type-hint (annotate) every parameter that you can.
 
+### 2.3 If your function returns nothing (e.g. only prints stuff), type-annotate `-> None`
+
+E.g.
+```python
+def my_printing_function() -> None:
+    # code
+```
+
 ## 3. Make sure you set optional parameters (e.g. with a default value) is marked with the `Optional` type information and that the default value doesn't cause errors in your code.
 
 Use `from typing import Optional` as below to annotate (type-hint) optional parameters, which should always have a default value assigned (e.g. `= something`):
