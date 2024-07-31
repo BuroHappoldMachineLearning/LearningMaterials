@@ -52,11 +52,13 @@ In general, you should make sure you cover and understand the following points:
 - [IMPORTANT] ❗ What is a Git repository ("repo").
 - Create a Git repository for your learning and exercises. You can create a free GitHub account and create a repo there.
 - Clone the repository on your machine.
-- [IMPORTANT] ❗ What is a branch?
-- [IMPORTANT] ❗ What does it mean to commit.
-- What does it meant to Pull and Push from/to a repo.
-- What is the .gitignore file?
-- Create an environment for your repository and exercises.
+- [IMPORTANT] ❗ [What is a branch](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)? Understand what are the differences between a the default "`main`" branch and other branches used for development.
+- [IMPORTANT] What does it meant to Fetch? What does it mean to Pull from a repo?
+- [IMPORTANT] ❗ What does it meant to Stage? What does it mean to Commit? What does it mean to Push to a repo?
+- Understand [how to work with branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches#working-with-branches). We always work with branches in our code. A developer must always create his own branch for targeting a specific (or a few specific) issues that they want to do code about.
+- [IMPORTANT] ❗ What is a Pull Request (PR)? We always use PRs to update the main branch when an issue is resolved. PRs are reviewed by other developers to make sure the code is correct before merging to `main`.
+- What is the [`.gitignore`](https://www.w3schools.com/git/git_ignore.asp?remote=github) file?
+- Create an environment for your repository and do exercises there.
 
 
 ### Basics of Object-oriented Python
