@@ -30,8 +30,9 @@ This [beginners tutorial](https://code.visualstudio.com/docs/python/python-tutor
 In general, you should make sure you cover and understand the following points:
 
 - Basic syntax in Python. Define variables.
-- [IMPORTANT] ❗ Control flow structures: if-else
+- [IMPORTANT] ❗ [Control flow](https://www.pythoncheatsheet.org/cheatsheet/control-flow) structures: comparison operators, boolean operators, if-else, loops (`for` and `while`), `continue` and `break` keywords, `range` command.
 - [IMPORTANT] ❗ [Define functions](https://www.w3schools.com/python/python_functions.asp); feel free to skip (don't do) `*args` and `**kwargs` which I personally consider a bad code practice.
+- [List comprehensions](https://www.w3schools.com/python/python_lists_comprehension.asp): they can be complicated and difficult to read, but in some places they may be handy (e.g. when [filtering values from a list](https://realpython.com/list-comprehension-python/#filter-values-from-a-list)). Don't worry too much about them.
 - [IMPORTANT] ❗ Basic built-in data structures: 
 	- [Lists](https://www.w3schools.com/python/python_lists.asp). Understand that they are _ordered_.
 	- [Tuples](https://www.w3schools.com/python/python_tuples.asp). Understand that [they can be used as a return type of functions](https://pieriantraining.com/python-tuples-how-to-return-them-like-a-pro), although _you shouldn't do it_: prefer `dataclass`es, or at least always type-hint them (see [Intermediate Python section](#intermediate-python) below).
