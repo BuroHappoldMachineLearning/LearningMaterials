@@ -1,5 +1,5 @@
 # ML and Python learning material
-Learning materials for Python and Machine Learning.
+Learning materials for Python and Machine Learning. Useful as a foundation if you want to collaborate with us.
 
 1. [List of topics to cover for Python and Machine Learning](SummaryList.md)
 2. [Code guidelines for good code](Good_code_guidelines.md)
