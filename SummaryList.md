@@ -40,6 +40,7 @@ In general, you should make sure you cover and understand the following points:
 
 - [IMPORTANT] ❗ What is [PIP](https://www.w3schools.com/python/python_pip.asp)? Try using it to install some packages. Where are those packages installed (in what folder of your machine)?
 - [IMPORTANT] ❗ Understand that when you install Python you effectively install a Python runtime executable (an .exe, in Windows), which is the program that runs your Python scripts/programs. This is called a Python "interpreter". Understand that there are many different versions of Python interpreters (we mostly use 3.10.xx and/or 3.8.xx).
+- [IMPORTANT] ❗Scoping in python, global versus local. How does scoping work? What other scoping exist in python and how do you use them?
 
 #### Python environments
 - [IMPORTANT] ❗ What is a [virtual environment](https://realpython.com/python-virtual-environments-a-primer/) in Python? Understand why **it's important to _always_ develop code in an environment**. Where do packages installed with PIP end on your machine, when you call PIP from an environment? You need to make sure an environment is always enabled when you code, and you understand that by installing packages in an environment you are adding _dependencies_. In our work, we use _shared_ environments on the same machine (workstations) and you must make sure you only install packages in shared environments only if really necessary, and possibly after consulting with other developers.
