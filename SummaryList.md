@@ -139,8 +139,11 @@ The following can be done using any Python package that supports them:
 - Try this [60-minute Pytorch tutorial](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#goal-of-this-tutorial).
 - Understand that there are many types of Neural Network (NN) architectures. We are mostly interested in Recurrent and Convolutional Neural Networks.
 - Understand the differences between [**Predictive VS Generative AI**](https://www.coursera.org/articles/generative-ai-vs-predictive-ai). We won't do Generative AI, we focus only on Predictive AI. 
-- Understand Hyperparameters and [Hyperparameter tuning](https://aws.amazon.com/what-is/hyperparameter-tuning/)
-- Understand [training VS evaluation VS testing, and common pitfalls (cross validation)](https://kili-technology.com/blog/training-validation-and-test-sets-how-to-split-machine-learning-data)
+- Understand Hyperparameters and [Hyperparameter tuning](https://aws.amazon.com/what-is/hyperparameter-tuning/) (batch size, learning rate, etc)
+- Understand datasets [training VS evaluation VS testing, and common pitfalls (cross validation)](https://kili-technology.com/blog/training-validation-and-test-sets-how-to-split-machine-learning-data)
+- Understand [loss functions](https://towardsdatascience.com/loss-functions-and-their-use-in-neural-networks-a470e703f1e9/) ([another source](https://www.datacamp.com/tutorial/loss-function-in-machine-learning))
+- Understand techniques for optimisation of the loss function, e.g. [Gradient Descent](https://www.digitalocean.com/community/tutorials/intro-to-optimization-in-deep-learning-gradient-descent)
+  
 
 ### Computer vision
 We use mostly computer vision in our work.
