@@ -139,6 +139,8 @@ The following can be done using any Python package that supports them:
 - Try this [60-minute Pytorch tutorial](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html#goal-of-this-tutorial).
 - Understand that there are many types of Neural Network (NN) architectures. We are mostly interested in Recurrent and Convolutional Neural Networks.
 - Understand the differences between [**Predictive VS Generative AI**](https://www.coursera.org/articles/generative-ai-vs-predictive-ai). We won't do Generative AI, we focus only on Predictive AI. 
+- Understand Hyperparameters and [Hyperparameter tuning](https://aws.amazon.com/what-is/hyperparameter-tuning/)
+- Understand [training VS evaluation VS testing, and common pitfalls (cross validation)](https://kili-technology.com/blog/training-validation-and-test-sets-how-to-split-machine-learning-data)
 
 ### Computer vision
 We use mostly computer vision in our work.
